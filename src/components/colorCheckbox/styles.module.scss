@@ -1,0 +1,26 @@
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  margin: 0 4px;
+
+  &Red {
+    background-color: #EE4444;
+  }
+
+  &Blue {
+    background-color: #3C81F6;
+  }
+
+  &Black {
+    background-color: black;
+  }
+
+  &Active {
+    border: 4px solid black;
+  }
+
+}

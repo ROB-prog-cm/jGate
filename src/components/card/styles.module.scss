@@ -1,0 +1,73 @@
+.wrapper {
+  width: 400px;
+  height: 800px;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin-bottom: 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 40px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 4px 0;
+}
+
+.subtitle {
+  width: 320px;
+  font-size: 16px;
+}
+
+.radioButtonContainer {
+  margin: 10px 0 10px 40px;
+  display: flex;
+}
+
+.radioButton {
+  margin: 0 6px;
+}
+
+.btn {
+  height: 55px;
+  width: 320px;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid #61A5FA;
+  margin: 6px 0;
+  cursor: pointer;
+  background-color: white;
+}
+
+.btnActive {
+  background-color: #FBBF23;
+  border: none;
+}
+
+.link {
+  margin: 20px 0 0 44px;
+}
+
